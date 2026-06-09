@@ -21,7 +21,7 @@ app.use(cookieParser()); // Parse cookies
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
-  'https://e-commerce-full-stack-orpin.vercel.app', // Vercel production
+  'https://e-commerce-full-stack-pi.vercel.app', // Vercel production
   process.env.FRONTEND_URL,  // Any extra domain via env var (e.g. custom domain)
 ].filter(Boolean);
 
