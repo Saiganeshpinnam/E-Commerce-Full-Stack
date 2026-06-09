@@ -1,0 +1,4 @@
+/* Reset index.css from Vite default */
+* {
+  box-sizing: border-box;
+}
